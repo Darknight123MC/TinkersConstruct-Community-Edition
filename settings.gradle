@@ -15,5 +15,12 @@ include 'shared'
 include 'api'
 include 'services:webservice'
 */
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven { url = 'https://maven.minecraftforge.net/' }
+    }
+}
+
 
 rootProject.name = 'TConstruct'
